@@ -1,0 +1,219 @@
+{
+	"app": {
+		"title": "AC Quoter",
+		"subtitle": "Intelligent Air Conditioning Quoter",
+		"powered_by": "Powered by Trybotix Labs",
+		"loading": "Loading...",
+		"error": "Error",
+		"retry": "Retry",
+		"back": "Back",
+		"next": "Next",
+		"finish": "Finish",
+		"cancel": "Cancel",
+		"save": "Save",
+		"download": "Download",
+		"share": "Share"
+	},
+	"landing": {
+		"headline": "Get your AC quote in under 2 minutes",
+		"subheadline": "Upload a photo of your space and our AI will calculate exactly what you need",
+		"cta_wizard": "Start Quote",
+		"cta_chat": "Chat with AI Expert",
+		"features": {
+			"title": "How it works",
+			"step1": {
+				"title": "Upload a photo",
+				"description": "Take or upload a photo of your space"
+			},
+			"step2": {
+				"title": "AI Analysis",
+				"description": "We detect dimensions, windows and features"
+			},
+			"step3": {
+				"title": "Instant quote",
+				"description": "Receive 3 options with prices and specs"
+			}
+		}
+	},
+	"wizard": {
+		"progress": {
+			"step1": "Photo",
+			"step2": "Analysis",
+			"step3": "Details",
+			"step4": "Calculation",
+			"step5": "Quote"
+		},
+		"upload": {
+			"title": "Upload a photo of your space",
+			"subtitle": "For best results, capture the entire space including windows and ceiling",
+			"cta_camera": "Take photo",
+			"cta_gallery": "Select from gallery",
+			"cta_drop": "or drag an image here",
+			"supported_formats": "JPG, PNG, HEIC - Max 10MB",
+			"tips": {
+				"title": "Tips for better analysis",
+				"tip1": "Capture from a corner to see more of the space",
+				"tip2": "Include visible windows if possible",
+				"tip3": "Good lighting improves detection"
+			}
+		},
+		"analysis": {
+			"title": "Analyzing your space...",
+			"detecting": "Detecting dimensions...",
+			"measuring": "Measuring features...",
+			"analyzing": "Analyzing thermal factors...",
+			"complete": "Analysis complete",
+			"detected": {
+				"dimensions": "Detected dimensions",
+				"windows": "Identified windows",
+				"room_type": "Space type",
+				"ceiling": "Ceiling type",
+				"sunlight": "Sun exposure"
+			},
+			"edit_values": "Edit values",
+			"confirm": "Confirm analysis"
+		},
+		"questions": {
+			"title": "A few more details",
+			"subtitle": "This helps us calculate more accurately",
+			"occupants": {
+				"label": "Regular occupants",
+				"placeholder": "Number of people"
+			},
+			"hours": {
+				"label": "Main usage schedule",
+				"options": {
+					"morning": "Morning (6am-12pm)",
+					"afternoon": "Afternoon (12pm-6pm)",
+					"full_day": "Full day (6am-6pm)",
+					"evening": "Evening (6pm-12am)",
+					"24_7": "24/7"
+				}
+			},
+			"equipment": {
+				"label": "Heat generating equipment",
+				"options": {
+					"computer": "Computers",
+					"server": "Servers",
+					"printer": "Printers",
+					"kitchen": "Kitchen equipment",
+					"lighting": "Intense lighting",
+					"other": "Other"
+				}
+			}
+		},
+		"calculation": {
+			"title": "Calculating requirements...",
+			"base_load": "Base space load",
+			"occupant_load": "Occupant load",
+			"equipment_load": "Equipment load",
+			"window_load": "Window load",
+			"sunlight_load": "Direct sunlight load",
+			"safety_margin": "Safety margin",
+			"total": "Total required",
+			"equivalent": "Equivalent to"
+		},
+		"quote": {
+			"title": "Your personalized quote",
+			"subtitle": "3 options tailored to your space",
+			"economic": {
+				"title": "Economic",
+				"description": "Functional and affordable"
+			},
+			"recommended": {
+				"title": "Recommended",
+				"description": "Best value for money",
+				"badge": "Best choice"
+			},
+			"premium": {
+				"title": "Premium",
+				"description": "Maximum efficiency and comfort"
+			},
+			"specs": {
+				"capacity": "Capacity",
+				"coverage": "Coverage",
+				"efficiency": "Efficiency",
+				"monthly_cost": "Est. monthly cost",
+				"price_range": "Price range",
+				"installation": "Installation"
+			},
+			"included": "included",
+			"not_included": "not included",
+			"download_pdf": "Download PDF",
+			"share_whatsapp": "Share on WhatsApp",
+			"schedule_visit": "Schedule technical visit",
+			"disclaimer": "Reference prices. Final quote requires on-site evaluation."
+		}
+	},
+	"chat": {
+		"welcome": "Hi! I'm your AC expert assistant. I can help you find the perfect equipment for your space. You can send me a photo or describe your situation.",
+		"placeholder": "Type your message or send a photo...",
+		"send": "Send",
+		"generating_quote": "Generating your quote...",
+		"suggestions": {
+			"title": "You can ask me:",
+			"s1": "What size AC do I need for a 300 sq ft office?",
+			"s2": "What's the difference between mini split and central?",
+			"s3": "How much does a 12,000 BTU AC consume?"
+		},
+		"analysis": {
+			"analyzing": "Analyzing your image...",
+			"complete": "Analysis complete",
+			"detected_space": "Detected space",
+			"detected_area": "Approximate area",
+			"detected_windows": "Windows",
+			"detected_occupancy": "Estimated capacity",
+			"error": "Could not analyze the image. Try another photo or describe the space to me."
+		},
+		"quote": {
+			"ready_title": "I have enough information!",
+			"ready_description": "I can generate your personalized quote now.",
+			"generate_button": "Generate Quote",
+			"your_quote": "Your Quote",
+			"thermal_load": "Calculated thermal load",
+			"download_pdf": "Download PDF"
+		}
+	},
+	"pdf": {
+		"title": "Air Conditioning Quote",
+		"prepared_for": "Prepared for",
+		"date": "Date",
+		"space_analysis": "Space Analysis",
+		"thermal_calculation": "Thermal Calculation",
+		"recommended_options": "Recommended Options",
+		"terms": "Terms and Conditions",
+		"terms_text": "This is a reference quote valid for 30 days. Final prices may vary based on availability and on-site technical evaluation. Does not include additional electrical or masonry work.",
+		"footer": "AI Generated by Trybotix Labs - quoter.trybotix.com"
+	},
+	"cta": {
+		"title": "This was a demo by Trybotix Labs",
+		"subtitle": "The same logic can apply to YOUR business: automated quotes, document analysis, photo diagnostics, smart budgets.",
+		"question": "Have a process that could work like this?",
+		"button": "Schedule a call",
+		"whatsapp": "Contact via WhatsApp",
+		"visit_website": "Visit website",
+		"email": "Send email",
+		"contact_email": "christian.ramirez@trybotix.com"
+	},
+	"errors": {
+		"upload_failed": "Error uploading image. Please try again.",
+		"analysis_failed": "Could not analyze the image. Try another photo.",
+		"calculation_failed": "Calculation error. Please verify the data.",
+		"network_error": "Connection error. Check your internet.",
+		"file_too_large": "File too large. Maximum 10MB.",
+		"invalid_format": "Unsupported format. Use JPG, PNG or HEIC."
+	},
+	"room_types": {
+		"office": "Office",
+		"conference": "Conference room",
+		"server_room": "Server room",
+		"residential_bedroom": "Bedroom",
+		"residential_living": "Living/Dining room",
+		"restaurant": "Restaurant",
+		"retail": "Retail/Store",
+		"warehouse": "Warehouse",
+		"gym": "Gym",
+		"classroom": "Classroom",
+		"other": "Other"
+	}
+}

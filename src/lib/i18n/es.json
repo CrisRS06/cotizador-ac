@@ -1,0 +1,219 @@
+{
+	"app": {
+		"title": "Cotizador AC",
+		"subtitle": "Cotizador Inteligente de Aire Acondicionado",
+		"powered_by": "Desarrollado por Trybotix Labs",
+		"loading": "Cargando...",
+		"error": "Error",
+		"retry": "Reintentar",
+		"back": "Volver",
+		"next": "Siguiente",
+		"finish": "Finalizar",
+		"cancel": "Cancelar",
+		"save": "Guardar",
+		"download": "Descargar",
+		"share": "Compartir"
+	},
+	"landing": {
+		"headline": "Cotiza tu aire acondicionado en menos de 2 minutos",
+		"subheadline": "Sube una foto de tu espacio y nuestra IA calculara exactamente lo que necesitas",
+		"cta_wizard": "Comenzar Cotizacion",
+		"cta_chat": "Hablar con experto IA",
+		"features": {
+			"title": "Como funciona",
+			"step1": {
+				"title": "Sube una foto",
+				"description": "Toma o sube una foto de tu espacio"
+			},
+			"step2": {
+				"title": "Analisis IA",
+				"description": "Detectamos dimensiones, ventanas y caracteristicas"
+			},
+			"step3": {
+				"title": "Cotizacion instantanea",
+				"description": "Recibe 3 opciones con precios y especificaciones"
+			}
+		}
+	},
+	"wizard": {
+		"progress": {
+			"step1": "Foto",
+			"step2": "Analisis",
+			"step3": "Detalles",
+			"step4": "Calculo",
+			"step5": "Cotizacion"
+		},
+		"upload": {
+			"title": "Sube una foto de tu espacio",
+			"subtitle": "Para mejores resultados, captura todo el espacio incluyendo ventanas y techo",
+			"cta_camera": "Tomar foto",
+			"cta_gallery": "Seleccionar de galeria",
+			"cta_drop": "o arrastra una imagen aqui",
+			"supported_formats": "JPG, PNG, HEIC - Max 10MB",
+			"tips": {
+				"title": "Tips para mejor analisis",
+				"tip1": "Captura desde una esquina para ver mas del espacio",
+				"tip2": "Incluye ventanas visibles si es posible",
+				"tip3": "Buena iluminacion mejora la deteccion"
+			}
+		},
+		"analysis": {
+			"title": "Analizando tu espacio...",
+			"detecting": "Detectando dimensiones...",
+			"measuring": "Midiendo caracteristicas...",
+			"analyzing": "Analizando factores termicos...",
+			"complete": "Analisis completo",
+			"detected": {
+				"dimensions": "Dimensiones detectadas",
+				"windows": "Ventanas identificadas",
+				"room_type": "Tipo de espacio",
+				"ceiling": "Tipo de techo",
+				"sunlight": "Exposicion solar"
+			},
+			"edit_values": "Editar valores",
+			"confirm": "Confirmar analisis"
+		},
+		"questions": {
+			"title": "Algunos detalles adicionales",
+			"subtitle": "Esto nos ayuda a calcular con mayor precision",
+			"occupants": {
+				"label": "Ocupantes habituales",
+				"placeholder": "Numero de personas"
+			},
+			"hours": {
+				"label": "Horario de uso principal",
+				"options": {
+					"morning": "Manana (6am-12pm)",
+					"afternoon": "Tarde (12pm-6pm)",
+					"full_day": "Todo el dia (6am-6pm)",
+					"evening": "Noche (6pm-12am)",
+					"24_7": "24/7"
+				}
+			},
+			"equipment": {
+				"label": "Equipos que generan calor",
+				"options": {
+					"computer": "Computadoras",
+					"server": "Servidores",
+					"printer": "Impresoras",
+					"kitchen": "Equipo de cocina",
+					"lighting": "Iluminacion intensa",
+					"other": "Otro"
+				}
+			}
+		},
+		"calculation": {
+			"title": "Calculando requerimientos...",
+			"base_load": "Carga base del espacio",
+			"occupant_load": "Carga por ocupantes",
+			"equipment_load": "Carga por equipos",
+			"window_load": "Carga por ventanas",
+			"sunlight_load": "Carga por sol directo",
+			"safety_margin": "Margen de seguridad",
+			"total": "Total requerido",
+			"equivalent": "Equivalente a"
+		},
+		"quote": {
+			"title": "Tu cotizacion personalizada",
+			"subtitle": "3 opciones ajustadas a tu espacio",
+			"economic": {
+				"title": "Economica",
+				"description": "Funcional y accesible"
+			},
+			"recommended": {
+				"title": "Recomendada",
+				"description": "Mejor relacion costo-beneficio",
+				"badge": "Mejor opcion"
+			},
+			"premium": {
+				"title": "Premium",
+				"description": "Maxima eficiencia y confort"
+			},
+			"specs": {
+				"capacity": "Capacidad",
+				"coverage": "Cobertura",
+				"efficiency": "Eficiencia",
+				"monthly_cost": "Costo mensual aprox.",
+				"price_range": "Rango de precio",
+				"installation": "Instalacion"
+			},
+			"included": "incluida",
+			"not_included": "no incluida",
+			"download_pdf": "Descargar PDF",
+			"share_whatsapp": "Compartir por WhatsApp",
+			"schedule_visit": "Agendar visita tecnica",
+			"disclaimer": "Precios referenciales. Cotizacion final requiere evaluacion presencial."
+		}
+	},
+	"chat": {
+		"welcome": "Hola! Soy tu asistente experto en aire acondicionado. Puedo ayudarte a encontrar el equipo perfecto para tu espacio. Puedes enviarme una foto o describirme tu situacion.",
+		"placeholder": "Escribe tu mensaje o envia una foto...",
+		"send": "Enviar",
+		"generating_quote": "Generando tu cotizacion...",
+		"suggestions": {
+			"title": "Puedes preguntarme:",
+			"s1": "Que tamano de AC necesito para una oficina de 30m2?",
+			"s2": "Cual es la diferencia entre mini split y central?",
+			"s3": "Cuanto consume un AC de 12,000 BTU?"
+		},
+		"analysis": {
+			"analyzing": "Analizando tu imagen...",
+			"complete": "Analisis completado",
+			"detected_space": "Espacio detectado",
+			"detected_area": "Area aproximada",
+			"detected_windows": "Ventanas",
+			"detected_occupancy": "Capacidad estimada",
+			"error": "No pude analizar la imagen. Intenta con otra foto o describeme el espacio."
+		},
+		"quote": {
+			"ready_title": "Tengo suficiente informacion!",
+			"ready_description": "Puedo generar tu cotizacion personalizada ahora.",
+			"generate_button": "Generar Cotizacion",
+			"your_quote": "Tu Cotizacion",
+			"thermal_load": "Carga termica calculada",
+			"download_pdf": "Descargar PDF"
+		}
+	},
+	"pdf": {
+		"title": "Cotizacion de Aire Acondicionado",
+		"prepared_for": "Preparado para",
+		"date": "Fecha",
+		"space_analysis": "Analisis del Espacio",
+		"thermal_calculation": "Calculo Termico",
+		"recommended_options": "Opciones Recomendadas",
+		"terms": "Terminos y Condiciones",
+		"terms_text": "Esta cotizacion es referencial y tiene validez de 30 dias. Los precios finales pueden variar segun disponibilidad y evaluacion tecnica presencial. No incluye trabajos electricos ni de albanileria adicionales.",
+		"footer": "Generado con IA por Trybotix Labs - cotizador.trybotix.com"
+	},
+	"cta": {
+		"title": "Esto fue un demo de Trybotix Labs",
+		"subtitle": "La misma logica puede aplicarse a TU negocio: cotizaciones automaticas, analisis de documentos, diagnosticos por fotos, presupuestos inteligentes.",
+		"question": "Tienes un proceso que podria funcionar asi?",
+		"button": "Agendar llamada",
+		"whatsapp": "Contactar por WhatsApp",
+		"visit_website": "Visitar sitio web",
+		"email": "Escribir email",
+		"contact_email": "christian.ramirez@trybotix.com"
+	},
+	"errors": {
+		"upload_failed": "Error al subir la imagen. Por favor intenta de nuevo.",
+		"analysis_failed": "No pudimos analizar la imagen. Intenta con otra foto.",
+		"calculation_failed": "Error en el calculo. Por favor verifica los datos.",
+		"network_error": "Error de conexion. Verifica tu internet.",
+		"file_too_large": "Archivo muy grande. Maximo 10MB.",
+		"invalid_format": "Formato no soportado. Usa JPG, PNG o HEIC."
+	},
+	"room_types": {
+		"office": "Oficina",
+		"conference": "Sala de conferencias",
+		"server_room": "Cuarto de servidores",
+		"residential_bedroom": "Habitacion",
+		"residential_living": "Sala/Comedor",
+		"restaurant": "Restaurante",
+		"retail": "Tienda/Comercio",
+		"warehouse": "Bodega",
+		"gym": "Gimnasio",
+		"classroom": "Aula",
+		"other": "Otro"
+	}
+}
