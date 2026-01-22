@@ -94,7 +94,6 @@
 					</svg>
 				</div>
 				<p class="text-sm font-medium text-foreground">{t.title}</p>
-				<p class="text-xs text-foreground-muted mt-1">Grok 4.1 Fast</p>
 			</div>
 		</div>
 	{/if}
