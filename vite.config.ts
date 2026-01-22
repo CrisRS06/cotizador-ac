@@ -16,7 +16,7 @@ export default defineConfig({
 				name: 'Cotizador AC - Trybotix Labs',
 				short_name: 'Cotizador AC',
 				description: 'Cotizador inteligente de aire acondicionado con IA',
-				theme_color: '#2563eb',
+				theme_color: '#22d3ee',
 				background_color: '#f9fafb',
 				display: 'standalone',
 				orientation: 'portrait',

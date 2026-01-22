@@ -66,13 +66,17 @@
 				<span class="text-sm font-medium">{session.translations.app.back}</span>
 			</button>
 
-			<div class="flex items-center gap-2">
-				<div
-					class="h-7 w-7 rounded-lg bg-gradient-to-br from-accent-500 to-orange-600 flex items-center justify-center"
-				>
-					<span class="text-white font-bold text-xs">AC</span>
-				</div>
-			</div>
+			<a
+				href="/"
+				class="flex items-center gap-2 hover:opacity-80 transition-opacity"
+				aria-label="Ir al inicio"
+			>
+				<img
+					src="/icons/icon-192.png"
+					alt="Cotizador AC"
+					class="h-8 w-8"
+				/>
+			</a>
 
 			<LanguageSwitcher />
 		</div>
