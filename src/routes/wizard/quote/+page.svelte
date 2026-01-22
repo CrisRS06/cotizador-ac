@@ -278,16 +278,10 @@
 			{t.download_pdf}
 		</Button>
 
-		<div class="grid grid-cols-2 gap-3">
-			<Button variant="secondary" onclick={shareWhatsApp}>
-				<Share2 class="h-4 w-4" />
-				WhatsApp
-			</Button>
-			<Button variant="secondary" onclick={scheduleVisit}>
-				<Calendar class="h-4 w-4" />
-				{session.language === 'es' ? 'Agendar' : 'Schedule'}
-			</Button>
-		</div>
+		<Button variant="secondary" onclick={shareWhatsApp} class="w-full">
+			<Share2 class="h-4 w-4" />
+			{session.language === 'es' ? 'Compartir por WhatsApp' : 'Share via WhatsApp'}
+		</Button>
 	</div>
 
 	<!-- Disclaimer -->
