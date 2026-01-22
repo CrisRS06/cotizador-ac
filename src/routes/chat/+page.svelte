@@ -547,7 +547,7 @@
 							message.role === 'user'
 								? 'bg-gradient-to-r from-accent-500 to-orange-600 text-white rounded-tr-sm px-4 py-3'
 								: message.content === '__QUOTE_CARD__'
-									? 'w-full max-w-md'
+									? 'w-full max-w-sm overflow-hidden'
 									: 'glass border border-border rounded-tl-sm px-4 py-3'
 						)}
 					>

@@ -59,7 +59,7 @@
 	}
 </script>
 
-<div class="space-y-3">
+<div class="space-y-3 overflow-hidden">
 	<!-- Header with total BTU -->
 	<div class="bg-gradient-to-r from-accent-500 to-orange-600 rounded-xl p-4 text-white">
 		<p class="text-sm opacity-90">{language === 'es' ? 'Carga termica calculada' : 'Calculated thermal load'}</p>
@@ -73,7 +73,7 @@
 		{@const isExpanded = expandedOption === option.id}
 		<div
 			class={cn(
-				'rounded-xl border transition-all duration-200',
+				'rounded-xl border transition-all duration-200 overflow-hidden',
 				option.isRecommended
 					? 'border-accent-500 bg-accent-500/10'
 					: 'border-border bg-surface/50'
@@ -123,8 +123,8 @@
 						</p>
 					</div>
 
-					<div class="text-right flex-shrink-0">
-						<p class="font-bold text-foreground">
+					<div class="text-right shrink-0 min-w-0">
+						<p class="font-bold text-foreground text-sm whitespace-nowrap">
 							{formatPrice(option.estimatedPrice.min, option.estimatedPrice.max)}
 						</p>
 						<div class="flex items-center justify-end gap-1 text-foreground-subtle">
